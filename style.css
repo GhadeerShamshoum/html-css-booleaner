@@ -4,11 +4,9 @@
     box-sizing: border-box;
 }
 
-{body
-    font-family: 'Bebas Neue', cursive;
-    font-family: 'Oswald', sans-serif;
-    font-family: 'Ubuntu', sans-serif;
-    font-family: 'Zen Kaku Gothic New', sans-serif;
+body{
+    font-family: "Times New Roman", Times, serif;
+      
 }
 
 header {
@@ -30,6 +28,10 @@ header div {
     position: relative;
 }
 
+section h1{
+    font-size:45px;
+}
+
 
 #title-small {
     font-size: 15px;
@@ -42,6 +44,7 @@ header div {
 main {
     background-color: rgb(233, 229, 229);
     padding-top: 15px;
+    margin-left: 5px;
 }
 
 section{
@@ -49,7 +52,7 @@ section{
 }
 
 .contenitore {
-    width: 1040px;
+    width: 100%;
     margin: auto;
 }
 
@@ -64,21 +67,23 @@ section{
     color: rgb(0, 183, 255);
 }
 
+
 .evidenziatore{
     background-color: rgb(255, 255, 0);
 }
 
-
+ul{
+    margin-left: 10px;
+}
 table{
    text-align: left; 
+   border-collapse: collapse;
    
 }
 th {
     width: 300px;
     color: white;
-    background-color: rgb(9, 169, 243);
-    border: none;
-    
+    background-color: rgb(9, 169, 243);  
 }
 
 
@@ -92,6 +97,7 @@ th {
 
 #footerTesto{
     color: gray;
+    margin-bottom: 10px;
 }
 
 
@@ -104,19 +110,21 @@ th {
 
 .foto-bottom1{
     background-image: url(img/monitor.jpg);
+}
+
+.foto-bottom1, .foto-bottom2{
+    color: white;
+    padding: 10px;
+    
+    
     width: 400px;
     height: 250px;
-    background-size: cover;
-   
+    background-size: cover;  
 
 }
 
-
 .foto-bottom2{
     background-image: url(img/graph.jpg);
-    width: 400px;
-    height: 250px;
-    background-size: cover;
 }
 
 
