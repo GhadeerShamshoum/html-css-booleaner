@@ -3,7 +3,15 @@
     padding: 0;
 }
 
+{body
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+}
+
 header {
+    height: 110px;
     background-color: rgb(60, 180, 250);
     background-image: url(img/pattern.png);
     background-size: contain;
@@ -15,15 +23,17 @@ header div {
     
     color: white;
     padding-left: 15px;
-    padding-top: 25px;
+    padding-top: 50px;
     padding-bottom: 16px;
-    font-family: 'Bebas Neue', cursive;
-    font-family: 'Zen Kaku Gothic New', sans-serif;
     text-shadow: 1px 1px #0e0e0e;
+    position: relative;
 }
 
 #title-small {
     font-size: 15px;
+    position: absolute;
+    top: 46%;
+    left: 2.5%;
     
 }
 
@@ -41,6 +51,13 @@ section{
     margin: auto;
 }
 
+#scritto, #data{
+    color: gray;
+}
+
+#data{
+    size: 10px;
+}
 #scrittore{
     color: rgb(0, 183, 255);
 }
@@ -70,3 +87,37 @@ th {
 .table-background{
     background-color: rgb(125, 212, 247);
 }
+
+#footerTesto{
+    color: gray;
+}
+
+
+.footer-foto{
+    width: 400px;
+    height: 280px;
+    
+}
+
+
+.foto-bottom1{
+    background-image: url(img/monitor.jpg);
+    width: 400px;
+    height: 250px;
+    background-size: cover;
+   
+
+}
+
+
+.foto-bottom2{
+    background-image: url(img/graph.jpg);
+    width: 400px;
+    height: 250px;
+    background-size: cover;
+}
+
+
+
+
+
