@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(60, 180, 250);
+    background-image: url(img/pattern.png);
+    background-size: contain;
+    background-repeat: repeat;
+    background-size: 35%;
+}
+
+header div {
+    
+    color: white;
+    padding-left: 15px;
+    padding-top: 25px;
+    padding-bottom: 16px;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    text-shadow: 1px 1px #0e0e0e;
+}
+
+#title-small {
+    font-size: 15px;
+    
+}
+
+main {
+    background-color: rgb(233, 229, 229);
+    padding-top: 15px;
+}
+
+section{
+    padding-top: 20px;
+}
+
+.contenitore {
+    width: 1000px;
+    margin: auto;
+}
+
+#scrittore{
+    color: rgb(0, 183, 255);
+}
+
+.evidenziatore{
+    background-color: rgb(255, 255, 0);
+}
+
+
+table{
+   text-align: left; 
+   
+}
+th {
+    width: 300px;
+    color: white;
+    background-color: rgb(9, 169, 243);
+    border: none;
+    
+}
+
+
+#table-speciale{
+    width: 500px;
+}
+
+.table-background{
+    background-color: rgb(125, 212, 247);
+}
